@@ -1,0 +1,250 @@
+dashboard:
+    pages:
+        forum:                         "Foro"
+        community:                     "Comunidad"
+    categories:
+        forum:                         "Foro"
+        community:                     "Comunidad"
+    links:
+        forum:                         "Foro"
+        subscriptions:                 "Suscripciones"
+
+layout:
+    header_links:
+        forum:                         "Foro"
+
+title:
+    admin:
+        index:                         "Admin Index"
+        manage-forums:
+            index:                     "Gestionar Foro"
+            create:                    "Crear Nuevo Foro"
+            edit:                      "Editar Foro %forum_name%"
+            delete:                    "Borrar Foro %forum_name%"
+        manage-categories:
+            index:                     "Gestionar Categories"
+            create:                    "Crear Nueva Categoria"
+            edit:                      "Editar Foro %category_name%"
+            delete:                    "Borrar Categoria %category_name%"
+        manage-boards:
+            index:                     "Gestionar Pizarra"
+            create:                    "Crear New Pizarra"
+            edit:                      "Editar Pizarra %board_name%"
+            delete:                    "Borrar Pizarra %board_name%"
+    category:
+        index:                         "Index"
+        show:                          "Categoria %category_name%"
+    board:
+        show:                          "Pizarra %board_name%"
+    topic:
+        show:                          "Topico: %topic_title%"
+        create:                        "Crear Topico"
+        reply:                         "Responder al Topico"
+        edit:                          "Editar Topico"
+        delete:                        "Borrar Topico"
+        change_board:                  "Cambiar Pizarra del Topico"
+    post:
+        show:                          "Post #%post_id%"
+        edit:                          "Editar Post #%post_id%"
+        delete:                        "Borrar Post #%post_id%"
+    subscription:
+        index:                         "Suscripciones"
+
+crumbs:
+    admin:
+        index:                         "Admin Index"
+        manage-forums:
+            index:                     "Gestionar Foro"
+            create:                    "Crear New Foro"
+            edit:                      "Editar Foro %forum_name%"
+            delete:                    "Borrar Foro %forum_name%"
+        manage-categories:
+            index:                     "Gestionar Categories"
+            create:                    "Crear Nueva Categoria"
+            edit:                      "Editar Foro %category_name%"
+            delete:                    "Borrar Categoria %category_name%"
+        manage-boards:
+            index:                     "Gestionar Pizarras"
+            create:                    "Crear Nueva Pizarra"
+            edit:                      "Editar Pizarra %board_name%"
+            delete:                    "Borrar Pizarra %board_name%"
+    moderator:
+        topic:
+            move:                      "Mover Topico"
+            delete:                    "Borrar Topico"
+    user:
+        category:
+            index:                     "Index Foro"
+        topic:
+            create:                    "Crear Nuevo Topico"
+            reply:                     "Responder Topico"
+            delete:                    "Borrar Topico"
+        post:
+            edit:                      "Editar Post: #"
+            delete:                    "Borrar Post: #"
+        subscription:
+            index:                     "Suscripciones"
+
+link:
+    edit:                              "Editar"
+    delete:                            "Borrar"
+    unassigned:                        "No asignado"
+    admin:
+        index:                         "Admin"
+    forum:
+        index:                         "Foro"
+        create:                        "Crear Nueva Foro"
+    category:
+        index:                         "um Index Foro"
+        create:                        "Crear Nueva Categoria"
+    board:
+        create:                        "Crear Nueva Pizarra"
+    topic:
+        create:                        "Crear Nuevo Topico"
+        reply:                         "Responder"
+        subscribe:                     "Suscribir"
+        unsubscribe:                   "Desuscribir"
+        close:                         "Cerrar Topico"
+        reopen:                        "Reabrir Topico"
+        delete:                        "Borrar Topico"
+        restore:                       "Restaurar Topico"
+        change_board:                  "Cambiar Pizarra"
+        sticky:                        "Sticky Topico"
+        unsticky:                      "Unsticky Topico"
+    post:
+        quote:                         "Cita"
+        delete:                        "Borrar"
+        restore:                       "Restaurar"
+        lock:                          "Bloquear"
+        unlock:                        "Desbloquear"
+    subscription:
+        index:                         "Suscripciones"
+
+form:
+    required:                          "Este campo es requerido"
+    button:
+        confirm-delete:                "Confirmar borrado"
+        save:                          "Guardar"
+        save-changes:                  "Guardar Cambios"
+        topic:
+            create:                    "Publicar Topico"
+            reply:                     "Publicar Respuesta"
+            move:                      "Mover Topico"
+        preview:                       "Preview"
+        cancel:                        "Cancelar"
+        yes:                           "Si"
+        no:                            "No"
+
+
+filter:
+    forums:                            "Foros"
+    categories:                        "Categorias"
+forum:
+    label:                             "Foro: "
+    id-th:                             "ID"
+    name-th:                           "Nombre"
+    category-count-th:                 "Cantidad de Categorias"
+    name-label:                        "Nombre: "
+    roles:
+        board-view-label:              "Board View Roles:"
+    confirm-delete-label:              "Confirmo la eliminacion de este Foro."
+    confirm-delete-subordinates-label: "Ademas borrar categorias, pizarras y topicos."
+category:
+    label:                             "Categoria"
+    id-th:                             "ID"
+    name-th:                           "Nombre"
+    board-count-th:                    "Cantidad de Pizarras"
+    name-label:                        "Nombre: "
+    confirm-delete-label:              "Confirmo la eliminacion de esta Categoria."
+    confirm-delete-subordinates-label: "Ademas borrar pizarras y topicos."
+    roles:
+        board-view-label:              "Board View Roles:"
+    index:                             "Index Foro"
+    none:                              "No hay categorias."
+    no-boards:                         "No hay pizarras para esta categoria."
+board:
+    th:                                "Pizarras"
+    id-th:                             "ID"
+    name-th:                           "Nombre"
+    topic-th:                          "Topico"
+    topics-th:                         "Topicos"
+    view-count-th:                     "Visitas"
+    reply-count-th:                    "Respuestas"
+    topic-count-th:                    "Topicos"
+    post-count-th:                     "Posts"
+    last-post-th:                      "Ultimo Post"
+    announcements-th:                  "Noticias"
+    label:                             "Pizarra: "
+    name-label:                        "Nombre: "
+    topic-count-label:                 "Topicos: "
+    post-count-label:                  "Posts: "
+    description-label:                 "Descripcion: "
+    confirm-delete-label:              "Confirmo la eliminacion de esta Pizarra."
+    confirm-delete-subordinates-label: "Ademas borrar topicos."
+    roles:
+        topic-create-label:            "Crear Roles del Topico: "
+        topic-view-label:              "Ver Roles del Topico: "
+        topic-reply-label:             "Responde Roles del Topico: "
+    no-topics:                         "No hay topicos para esta pizarra, se el primero en postear!"
+topic:
+    label:                             "Topico: "
+    board-label:                       "Pizarra: "
+    title-label:                       "Titulo: "
+    confirm-delete-label:              "Confirmo la eliminacion de este Topico."
+    subscription-count-label:          "Suscriptores: "
+    view-count-label:                  "Vistas: "
+    reply-count-label:                 "Respuestas: "
+    transcript:                        "Transcripción."
+    closed-by:                         "Topico cerrado por %name%"
+    deleted-by:                        "Topico borrado por %name%"
+    stickied-by:                       "Stickied by %name%"
+    delete-confirm:                    "Estas seguro que quieres eliminar este topico?"
+    badge:
+        closed:                        "Cerrado"
+    deleted-by:                        "Borrado por "
+    closed-by:                         "Cerrado por "
+post:
+    preview:                           "Vista Previa"
+    posted-by:                         "Posteado por "
+    edited-by:                         "Editado por "
+    deleted-by:                        "Borrado por "
+    locked-by:                         "Bloqueado por "
+    confirm-delete-label:              "Confirmo que quiero borrar este Post."
+    body-label:                        "Mensaje:"
+    subscribe-label:                   "Suscribir a este topico."
+    unlock-until-label:                "Desbloquear Hasta:"
+    has_been_locked:                   "Este post ha sido bloqueado."
+    has_been_deleted:                  "Este post ha sido borrado."
+    user_post_count:                   "{0} No hay Posts aun|{1} %post_count% Post |[2, Inf] %post_count% Posts"
+    delete_confirm:                    "Estas seguro que quieres borrar este post?"
+    show:                              "Mostrar"
+    hide:                              "Ocultar"
+subscription:
+    no-topics:                         "No estas suscripto a ningun topico."
+
+next:                                  "Siguiente"
+previous:                              "Anterior"
+
+flash:
+    success:
+        topic:
+            create:                    "Has publicado el nuevo post correctamente: %topic_title%."
+            reply:                     "Has respondido el topico correctamente: %topic_title%."
+            move:                      "Has movido el topico correctamente: %topic_title%."
+            subscribe:                 "Te has suscripto al topico %topic_title%."
+            unsubscribe:               "Te has desuscripto del topico %topic_title%."
+        post:
+            edit:                      "Has editado el post #%post_id% del topico %topic_title% correctamente."
+            delete:                    "Has borrado el post #%post_id% correctamente."
+    warning:
+        topic:
+            flood_control:             "Flood Control - You have posted too much at once, take a break before posting again."
+    error:
+        topic:
+            reply:
+                not_found:             "The topic you are trying to reply to no longer exists."
+            subscribe:
+                not_found:             "Topic could not be subscribed to because it was not found! Disculpe las molestias."
+        board:
+            topic_create:
+                not_found:             "La pizarra en la que estas tratando de postear no existe! Disculpe las molestias."
